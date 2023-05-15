@@ -28,12 +28,12 @@
     margin-right: .5rem;
   }
 
-  i{
+  header, i{
     padding-right: 10px;
   }
 
 
-  h3{
+  h1, h3{
     padding-bottom: 25px;
   }
 
@@ -41,4 +41,49 @@
     color: #002060;
   }
 
- 
+  .header{
+    padding: 50px;
+    max-height: 320px;
+  background-color: #ececec;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .text-blue{
+    color: #4472C4;
+  }
+
+  .text-uppercase{
+    text-transform: uppercase; 
+  }
+
+
+  .right-column{
+     width: 75%;
+  }
+
+
+  .content{
+    padding: 50px;
+  }
+
+  .contact{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .icon{
+    margin-right: .5rem;
+  }
+
+  #dev{
+    font-weight: bolder;
+  }
+
+  
