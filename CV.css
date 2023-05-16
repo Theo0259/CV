@@ -13,6 +13,7 @@
   color: white;
   width: 30%;
   order: 1;
+  text-align: center;
 }
 
 .portait {
@@ -30,15 +31,9 @@
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 0 0 1rem;
-}
-
-/* .list {
-  text-align: center;
-} */
-
-/* ul{
   display: inline-block;
-} */
+  text-align: left;
+}
 
 .section {
   margin-bottom: 1.5rem;
@@ -98,6 +93,12 @@ a {
   padding: 5px;
   display: flex;
   flex-direction: column;
+}
+
+.experience-list {
+  list-style-type: circle;
+  display: inline-block;
+  text-align: left;
 }
 
 .icon {
