@@ -4,7 +4,7 @@
   width: auto;
   margin: 100px auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .left-column {
@@ -18,8 +18,9 @@
 
 .portait {
   border-radius: 50%;
-  max-width: 150px;
-  height: 150px;
+  max-height: 150px;
+  width: 150px;
+
   margin: auto;
   display: block;
   margin-bottom: 25px;
@@ -37,6 +38,7 @@
 
 .section {
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .icon {
@@ -72,6 +74,7 @@ h3 {
 
 a {
   text-decoration: none;
+  color: #0000;
 }
 
 .text-blue {
@@ -91,6 +94,7 @@ a {
 .content {
   padding: 50px;
   order: 3;
+  text-align: center;
 }
 
 .contact {
@@ -103,14 +107,11 @@ a {
   list-style-type: circle;
   display: inline-block;
   text-align: left;
+  max-width: 200px;
 }
 
 .icon {
   margin-right: 0.5rem;
-}
-
-#dev {
-  font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
@@ -136,5 +137,11 @@ a {
     width: 100%;
     padding: 5px;
     order: 1;
+  }
+
+  .portait {
+    width: 0px;
+    height: 0px;
+    visibility: none;
   }
 }
