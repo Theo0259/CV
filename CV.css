@@ -26,6 +26,7 @@
 .skills {
   list-style-type: none;
   padding: 0;
+  padding-top: 20px;
   font-size: 1.1rem;
   letter-spacing: 1px;
   margin: 0 0 1rem;
@@ -47,14 +48,35 @@ i {
   padding-right: 10px;
 }
 
-h1,
-h3 {
+.date {
+  padding-right: 5px;
+}
+
+h1 {
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
-h3 {
+.texte {
+  padding-top: 20px;
+}
+
+h3,
+.dev {
   text-decoration: underline;
+}
+
+h3 {
+  width: 100%;
+  background-color: rgb(255, 214, 160);
+  border-radius: 40px;
+  padding: 4px 0;
+  text-align: center;
+  margin: auto;
+}
+
+.dev {
+  font-size: 20px;
 }
 
 .text-darkblue {
@@ -138,6 +160,10 @@ h3 {
 
   .content {
     padding: 40px;
+  }
+
+  .texte {
+    padding-top: 30px;
   }
 }
 
