@@ -1,12 +1,5 @@
-// let modeMoon = document.getElementByClassName("moon");
-// let modeSun = document.getElementByClassName("sun");
-// let corpsDePage = document.getElementById("corps");
+const chk = document.getElementById('chk');
 
-// modeMoon.onclick = function moon() {
-//   corpsDePage.classList.add("active");
-//   modeSun.classList.add("dark");
-// };
-
-// modeSun.onclick = function sun() {
-//   corpsDePage.classList.remove("active");
-// };
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
