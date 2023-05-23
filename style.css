@@ -19,6 +19,14 @@ body {
   text-align: center;
 }
 
+.left-column h3 {
+  color: black;
+}
+
+.left-column ul {
+  padding-top: 30px;
+}
+
 .portait {
   width: 0px;
   height: 0px;
@@ -26,7 +34,8 @@ body {
   margin: none;
 }
 
-.skills {
+.skills,
+.hobbies {
   list-style-type: none;
   padding: 0;
   padding-top: 20px;
@@ -35,6 +44,11 @@ body {
   margin: 0 0 1rem;
   display: inline-block;
   text-align: left;
+}
+
+.hobbies i {
+  padding-right: 10px;
+  width: 1.75rem;
 }
 
 .icon {
@@ -56,7 +70,7 @@ h1 {
 }
 
 .texte {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 h3,
@@ -67,6 +81,7 @@ h3,
 h3 {
   width: 100%;
   background-color: rgb(255, 214, 160);
+
   border-radius: 40px;
   padding: 4px 0;
   padding: auto;
