@@ -46,11 +46,6 @@ body {
   text-align: center;
 }
 
-header,
-i {
-  padding-right: 10px;
-}
-
 .date {
   padding-right: 5px;
 }
@@ -88,7 +83,7 @@ h3 {
   color: #002060;
 }
 
-.header {
+header {
   padding: 15px;
   background-color: #ececec;
 }
@@ -125,6 +120,10 @@ h3 {
   flex-direction: column;
 }
 
+.contact i {
+  padding-right: 10px;
+}
+
 .experience-list {
   list-style-type: circle;
   display: inline-block;
@@ -137,15 +136,15 @@ h3 {
   justify-content: center;
 }
 
-body.dark .header {
+body.dark header {
   background-color: #292c35;
 }
 
-body.dark .header p {
+body.dark header p {
   color: #fff;
 }
 
-body.dark .header h1 {
+body.dark header h1 {
   color: #fff;
 }
 
@@ -194,6 +193,9 @@ body.dark h3 {
   height: 24px;
   width: 50px;
   transform: scale(1.5);
+}
+
+body.dark .label {
   border: 1px white solid;
 }
 
@@ -221,7 +223,7 @@ body.dark h3 {
 @media screen and (min-width: 576px) {
   .left-column {
     width: 35%;
-    padding: 10px;
+    padding: 8px;
     order: 1;
   }
 
