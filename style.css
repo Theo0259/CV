@@ -48,7 +48,7 @@ body {
 
 .hobbies i {
   padding-right: 10px;
-  width: 1.75rem;
+  width: 1.85rem;
 }
 
 .icon {
@@ -175,7 +175,7 @@ body.dark .left-column i {
   color: #4472c4;
 }
 
-body.dark .content {
+body.dark .right-column {
   background-color: #292c35;
 }
 
@@ -237,14 +237,22 @@ body.dark .label {
 
 @media screen and (min-width: 576px) {
   .left-column {
-    width: 35%;
-    padding: 8px;
+    width: 40%;
+    padding: 4px;
     order: 1;
   }
 
   .right-column {
-    width: 65%;
+    width: 60%;
     order: 2;
+  }
+
+  body.dark .right-column {
+    border-left: solid 2px white;
+  }
+
+  body.dark .content {
+    border-top: solid 2px white;
   }
 
   .dark-mode {
@@ -282,7 +290,7 @@ body.dark .label {
 
 @media screen and (min-width: 768px) {
   .left-column {
-    padding: 25px;
+    padding: 5px;
     width: 30%;
   }
 
