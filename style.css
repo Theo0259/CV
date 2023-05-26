@@ -250,6 +250,7 @@ body.dark h3 {
   align-items: center;
   justify-content: space-between;
   padding: 4px;
+  
   position: relative;
   height: 23px;
   width: 44px;
@@ -313,6 +314,7 @@ body.dark .label {
     border-radius: 50%;
     margin: auto;
     display: block;
+    margin-top: 10px; 
     margin-bottom: 15px;
        /* object-fit: fill;
      object-position: center;     */
