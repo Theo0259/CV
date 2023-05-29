@@ -3,9 +3,6 @@ body {
   margin: auto;
 }
 
-
-
-
 .container-fluid {
   display: flex;
   flex-wrap: wrap;
@@ -14,16 +11,15 @@ body {
 }
 
 .left-column {
-
   padding: 5px;
- padding-top: 30px;
+  padding-top: 30px;
   background-color: #4472c4;
   color: white;
   width: 100%;
   order: 2;
   text-align: center;
- 
-  transition:background-color 0.2s ease-in-out;
+
+  transition: background-color 0.2s ease-in-out;
 }
 
 .left-column h3 {
@@ -41,7 +37,7 @@ body {
   /* margin: none; */
 }
 
-.language li{
+.language li {
   padding-top: 15px;
 }
 
@@ -62,7 +58,7 @@ body {
   width: 1.85rem;
 }
 
-.hobbies li{
+.hobbies li {
   padding-top: 10px;
 }
 
@@ -75,13 +71,12 @@ body {
   text-align: center;
 }
 
-
-.content strong{
+.content strong {
   padding-top: 20px;
 }
 
 .date {
-   padding-right: 5px; 
+  padding-right: 5px;
 }
 
 h1 {
@@ -110,7 +105,6 @@ h3 {
   border: solid 2px black;
 }
 
-
 .dev {
   font-size: 20px;
 }
@@ -123,8 +117,7 @@ header {
   padding: 15px;
   background-color: #ececec;
 
-  transition:background-color 0.2s ease-in-out;
-  
+  transition: background-color 0.2s ease-in-out;
 }
 
 .mail {
@@ -144,17 +137,15 @@ header {
   order: 1;
   width: 100%;
   text-align: center;
-  transition:background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .content {
-  padding-top: 30px; 
+  padding-top: 30px;
   /* padding: none; */
 
   text-align: center;
 }
-
-
 
 .contact {
   padding: 5px;
@@ -166,29 +157,23 @@ header {
   padding-right: 10px;
 }
 
-
-
-
-
-.language, .experience-list {
+.language,
+.experience-list {
   list-style-type: circle;
   display: inline-block;
   text-align: left;
   max-width: 200px;
-
 }
-
 
 .dark-mode {
   display: flex;
   justify-content: center;
 }
 
-
 body.dark header {
   background-color: #292c35;
-   border-bottom: solid 2px white; 
-  transition:background-color 0.2s ease-in-out; 
+  border-bottom: solid 2px white;
+  transition: background-color 0.2s ease-in-out;
 }
 
 body.dark header p {
@@ -197,8 +182,7 @@ body.dark header p {
 
 body.dark header h1 {
   color: #fff;
-  transition:background-color 0.2s ease-in-out;
-  
+  transition: background-color 0.2s ease-in-out;
 }
 
 body.dark a {
@@ -207,22 +191,22 @@ body.dark a {
 
 body.dark .left-column {
   background-color: #292c35;
-  transition:background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 body.dark .left-column i {
   color: #4472c4;
-  transition:background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 body.dark .right-column {
   background-color: #292c35;
- 
-  transition:background-color 0.2s ease-in-out;
+
+  transition: background-color 0.2s ease-in-out;
 }
 
-body.dark .content{
-  border-bottom:solid 2px white ;
+body.dark .content {
+  border-bottom: solid 2px white;
 }
 
 body.dark .content p {
@@ -231,6 +215,10 @@ body.dark .content p {
 
 body.dark .content ul {
   color: #fff;
+}
+
+body.dark h2 {
+  color: white;
 }
 
 body.dark h3 {
@@ -250,12 +238,11 @@ body.dark h3 {
   align-items: center;
   justify-content: space-between;
   padding: 4px;
-  
+
   position: relative;
   height: 23px;
   width: 44px;
   transform: scale(1.5);
-
 }
 
 body.dark .label {
@@ -272,8 +259,6 @@ body.dark .label {
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
-
-
 
 .checkbox:checked + .label .ball {
   transform: translateX(20px);
@@ -297,11 +282,11 @@ body.dark .label {
   }
 
   body.dark .right-column {
-    border-left: solid 2px white; 
+    border-left: solid 2px white;
   }
 
-  body.dark .content{
-    border-bottom:none ;
+  body.dark .content {
+    border-bottom: none;
   }
 
   .dark-mode {
@@ -314,9 +299,9 @@ body.dark .label {
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 15px;
-       /* object-fit: fill;
+    /* object-fit: fill;
      object-position: center;     */
     border: solid 4px white;
   }
